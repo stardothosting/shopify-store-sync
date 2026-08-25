@@ -1,0 +1,247 @@
+{
+  "generatedAt": "2026-08-24T20:23:28.095Z",
+  "surfaces": [
+    {
+      "resource": "products",
+      "usedBySource": true,
+      "sourceCount": 410,
+      "themeRelevance": "critical",
+      "recommendation": "sync-and-verify",
+      "currentCliSupport": "partial",
+      "reason": "Product cards, product pages, collection grids, and search depend on product data.",
+      "auditStatus": "audited"
+    },
+    {
+      "resource": "product-metafields",
+      "usedBySource": true,
+      "sourceCount": 35,
+      "themeRelevance": "critical",
+      "recommendation": "sync-and-verify",
+      "currentCliSupport": "missing",
+      "reason": "Custom product fields are commonly rendered as specifications or merchandising badges.",
+      "auditStatus": "audited"
+    },
+    {
+      "resource": "variant-metafields",
+      "usedBySource": true,
+      "sourceCount": 11,
+      "themeRelevance": "important",
+      "recommendation": "audit-then-sync-if-visible",
+      "currentCliSupport": "missing",
+      "reason": "Variant custom fields can affect variant selectors, feeds, and storefront metadata.",
+      "auditStatus": "audited"
+    },
+    {
+      "resource": "collections",
+      "usedBySource": true,
+      "sourceCount": 17,
+      "themeRelevance": "critical",
+      "recommendation": "sync-and-verify",
+      "currentCliSupport": "partial",
+      "reason": "Collection pages, nav, filters, and merchandising depend on collection structure.",
+      "auditStatus": "audited"
+    },
+    {
+      "resource": "menus",
+      "usedBySource": true,
+      "sourceCount": 9,
+      "themeRelevance": "critical",
+      "recommendation": "sync-and-verify",
+      "currentCliSupport": "missing",
+      "reason": "Header, footer, mobile nav, and mega-menu behavior depend on menus.",
+      "auditStatus": "audited"
+    },
+    {
+      "resource": "pages",
+      "usedBySource": true,
+      "sourceCount": 8,
+      "themeRelevance": "important",
+      "recommendation": "sync-and-verify",
+      "currentCliSupport": "supported",
+      "reason": "Static pages are needed for footer links, policy-adjacent content, and client review.",
+      "auditStatus": "audited"
+    },
+    {
+      "resource": "blogs-articles",
+      "usedBySource": true,
+      "sourceCount": 1,
+      "themeRelevance": "conditional",
+      "recommendation": "sync-if-used",
+      "currentCliSupport": "supported",
+      "reason": "Blog templates matter only if editorial content is part of the storefront.",
+      "auditStatus": "audited"
+    },
+    {
+      "resource": "redirects",
+      "usedBySource": true,
+      "sourceCount": 1,
+      "themeRelevance": "launch-critical",
+      "recommendation": "audit-and-plan-launch-sync",
+      "currentCliSupport": "missing",
+      "reason": "Redirects protect URL continuity when launching redesigned navigation and URLs.",
+      "auditStatus": "audited"
+    },
+    {
+      "resource": "files",
+      "usedBySource": true,
+      "sourceCount": 100,
+      "themeRelevance": "important",
+      "recommendation": "audit-references-then-sync-needed-assets",
+      "currentCliSupport": "partial",
+      "reason": "Files can be referenced by pages, metafields, metaobjects, and app content.",
+      "auditStatus": "audited"
+    },
+    {
+      "resource": "metaobjects",
+      "usedBySource": false,
+      "sourceCount": 0,
+      "themeRelevance": "critical-if-used",
+      "recommendation": "sync-and-verify-if-used",
+      "currentCliSupport": "missing",
+      "reason": "Metaobjects often drive custom theme sections and structured content.",
+      "auditStatus": "audited"
+    },
+    {
+      "resource": "shop-metafields",
+      "usedBySource": true,
+      "sourceCount": 2,
+      "themeRelevance": "important",
+      "recommendation": "audit-then-sync-if-visible",
+      "currentCliSupport": "missing-in-cli",
+      "reason": "Shop metafields can hold global storefront settings or app configuration.",
+      "auditStatus": "audited"
+    },
+    {
+      "resource": "policies",
+      "usedBySource": null,
+      "sourceCount": null,
+      "themeRelevance": "important",
+      "recommendation": "audit-and-recreate-if-linked",
+      "currentCliSupport": "missing",
+      "reason": "Policy pages influence footer, checkout trust, and client demo completeness. Inventory probe was blocked or failed, so source usage is unknown.",
+      "auditStatus": "unknown",
+      "blockedBy": [
+        "policies"
+      ]
+    },
+    {
+      "resource": "markets-locales-currency",
+      "usedBySource": null,
+      "sourceCount": null,
+      "themeRelevance": "critical-for-demo",
+      "recommendation": "audit-and-align-dev-store",
+      "currentCliSupport": "missing",
+      "reason": "Canadian currency, locale, and market assumptions affect demo credibility. Inventory probe was blocked or failed, so source usage is unknown.",
+      "auditStatus": "unknown",
+      "blockedBy": [
+        "markets",
+        "shop-locales"
+      ]
+    },
+    {
+      "resource": "publications",
+      "usedBySource": null,
+      "sourceCount": null,
+      "themeRelevance": "important",
+      "recommendation": "audit-before-launch",
+      "currentCliSupport": "missing",
+      "reason": "Publication state controls which resources are visible in storefront channels. Inventory probe was blocked or failed, so source usage is unknown.",
+      "auditStatus": "unknown",
+      "blockedBy": [
+        "publications"
+      ]
+    },
+    {
+      "resource": "locations-inventory",
+      "usedBySource": null,
+      "sourceCount": null,
+      "themeRelevance": "conditional",
+      "recommendation": "audit-and-sync-only-if-storefront-visible",
+      "currentCliSupport": "partial",
+      "reason": "Locations and inventory matter if pickup, stock messaging, or sellability are shown. Inventory probe was blocked or failed, so source usage is unknown.",
+      "auditStatus": "unknown",
+      "blockedBy": [
+        "locations"
+      ]
+    },
+    {
+      "resource": "discounts",
+      "usedBySource": null,
+      "sourceCount": null,
+      "themeRelevance": "demo-relevant",
+      "recommendation": "audit-and-create-safe-test-discounts",
+      "currentCliSupport": "missing",
+      "reason": "Discount UX should be demoable, but real active codes should not be blindly cloned. Inventory probe was blocked or failed, so source usage is unknown.",
+      "auditStatus": "unknown",
+      "blockedBy": [
+        "discounts-gift-cards"
+      ]
+    },
+    {
+      "resource": "gift-cards",
+      "usedBySource": null,
+      "sourceCount": null,
+      "themeRelevance": "demo-relevant-if-sold",
+      "recommendation": "audit-and-create-safe-test-gift-card-product-if-needed",
+      "currentCliSupport": "missing",
+      "reason": "Gift card purchase/design can matter, but balances and liabilities should not be cloned. Inventory probe was blocked or failed, so source usage is unknown.",
+      "auditStatus": "unknown",
+      "blockedBy": [
+        "discounts-gift-cards"
+      ]
+    },
+    {
+      "resource": "apps",
+      "usedBySource": null,
+      "sourceCount": null,
+      "themeRelevance": "critical-if-storefront-app",
+      "recommendation": "manual-review",
+      "currentCliSupport": "missing",
+      "reason": "App-owned storefront widgets, filters, reviews, and metafields may need manual setup. Inventory probe was blocked or failed, so source usage is unknown.",
+      "auditStatus": "unknown",
+      "blockedBy": [
+        "apps"
+      ]
+    },
+    {
+      "resource": "selling-plans",
+      "usedBySource": false,
+      "sourceCount": 0,
+      "themeRelevance": "critical-if-used",
+      "recommendation": "sync-or-simulate-if-used",
+      "currentCliSupport": "missing",
+      "reason": "Subscription UX affects product pages, cart, and price display if present.",
+      "auditStatus": "audited"
+    }
+  ],
+  "failedProbes": [
+    {
+      "resource": "shop-locales",
+      "error": "Command failed: shopify store execute --store encore-food-service.myshopify.com --json --query query ShopLocales {\n        shopLocales {\n          locale\n          name\n          primary\n          published\n        }\n        availableLocales {\n          isoCode\n          name\n        }\n      } --output-file /tmp/shopify-cli-inventory-1787602990298-l9hmn3mbhks.json\nLoading stored store auth ...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\nExecuting GraphQL operation ...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\n╭─ error ──────────────────────────────────────────────────────────────────────╮\n│                                                                              │\n│  GraphQL operation failed.                                                   │\n│                                                                              │\n│  {                                                                           │\n│    \"errors\": [                                                               │\n│      {                                                                       │\n│        \"message\": \"Access denied for shopLocales field. Required access:     │\n│  `read_locales` access scope or `read_markets_home` access scope.\",          │\n│        \"locations\": [                                                        │\n│          {                                                                   │\n│            \"line\": 2,                                                        │\n│            \"column\": 9                                                       │\n│          }                                                                   │\n│        ],                                                                    │\n│        \"extensions\": {                                                       │\n│          \"code\": \"ACCESS_DENIED\",                                            │\n│          \"documentation\": \"https://shopify.dev/api/usage/access-scopes\",     │\n│          \"requiredAccess\": \"`read_locales` access scope or                   │\n│  `read_markets_home` access scope.\"                                          │\n│        },                                                                    │\n│        \"path\": [                                                             │\n│          \"shopLocales\"                                                       │\n│        ]                                                                     │\n│      }                                                                       │\n│    ]                                                                         │\n│  }                                                                           │\n│                                                                              │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\n"
+    },
+    {
+      "resource": "policies",
+      "error": "Command failed: shopify store execute --store encore-food-service.myshopify.com --json --query query Policies {\n        privacySettings {\n          privacyPolicy {\n            autoManaged\n          }\n        }\n        onlineStore {\n          passwordProtection {\n            enabled\n          }\n        }\n      } --output-file /tmp/shopify-cli-inventory-1787602999300-fx8ripsuxq.json\nLoading stored store auth ...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\nExecuting GraphQL operation ...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\n╭─ error ──────────────────────────────────────────────────────────────────────╮\n│                                                                              │\n│  GraphQL operation failed.                                                   │\n│                                                                              │\n│  {                                                                           │\n│    \"errors\": [                                                               │\n│      {                                                                       │\n│        \"message\": \"Access denied for privacySettings field. Required         │\n│  access: `read_privacy_settings` access scope.\",                             │\n│        \"locations\": [                                                        │\n│          {                                                                   │\n│            \"line\": 2,                                                        │\n│            \"column\": 9                                                       │\n│          }                                                                   │\n│        ],                                                                    │\n│        \"extensions\": {                                                       │\n│          \"code\": \"ACCESS_DENIED\",                                            │\n│          \"documentation\": \"https://shopify.dev/api/usage/access-scopes\",     │\n│          \"requiredAccess\": \"`read_privacy_settings` access scope.\"           │\n│        },                                                                    │\n│        \"path\": [                                                             │\n│          \"privacySettings\"                                                   │\n│        ]                                                                     │\n│      }                                                                       │\n│    ]                                                                         │\n│  }                                                                           │\n│                                                                              │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\n"
+    },
+    {
+      "resource": "markets",
+      "error": "Command failed: shopify store execute --store encore-food-service.myshopify.com --json --query query Markets {\n        markets(first: 100) {\n          nodes {\n            id\n            name\n            handle\n            status\n            primary\n            webPresence {\n              defaultLocale {\n                locale\n                name\n              }\n              alternateLocales {\n                locale\n                name\n              }\n            }\n          }\n        }\n      } --output-file /tmp/shopify-cli-inventory-1787603000551-sqsukmkrf2.json\nLoading stored store auth ...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\nExecuting GraphQL operation ...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\n╭─ error ──────────────────────────────────────────────────────────────────────╮\n│                                                                              │\n│  GraphQL operation failed.                                                   │\n│                                                                              │\n│  {                                                                           │\n│    \"errors\": [                                                               │\n│      {                                                                       │\n│        \"message\": \"Access denied for markets field. Required access:         │\n│  `read_markets` for queries and both `read_markets` as well as               │\n│  `write_markets` for mutations.\",                                            │\n│        \"locations\": [                                                        │\n│          {                                                                   │\n│            \"line\": 2,                                                        │\n│            \"column\": 9                                                       │\n│          }                                                                   │\n│        ],                                                                    │\n│        \"extensions\": {                                                       │\n│          \"code\": \"ACCESS_DENIED\",                                            │\n│          \"documentation\": \"https://shopify.dev/api/usage/access-scopes\",     │\n│          \"requiredAccess\": \"`read_markets` for queries and both              │\n│  `read_markets` as well as `write_markets` for mutations.\"                   │\n│        },                                                                    │\n│        \"path\": [                                                             │\n│          \"markets\"                                                           │\n│        ]                                                                     │\n│      }                                                                       │\n│    ]                                                                         │\n│  }                                                                           │\n│                                                                              │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\n"
+    },
+    {
+      "resource": "publications",
+      "error": "Command failed: shopify store execute --store encore-food-service.myshopify.com --json --query query Publications {\n        publications(first: 100) {\n          nodes {\n            id\n            name\n            supportsFuturePublishing\n          }\n        }\n      } --output-file /tmp/shopify-cli-inventory-1787603001797-k76ll1ahlqb.json\nLoading stored store auth ...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\nExecuting GraphQL operation ...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\n╭─ error ──────────────────────────────────────────────────────────────────────╮\n│                                                                              │\n│  GraphQL operation failed.                                                   │\n│                                                                              │\n│  {                                                                           │\n│    \"errors\": [                                                               │\n│      {                                                                       │\n│        \"message\": \"Access denied for publications field. Required access:    │\n│  `read_publications` access scope.\",                                         │\n│        \"locations\": [                                                        │\n│          {                                                                   │\n│            \"line\": 2,                                                        │\n│            \"column\": 9                                                       │\n│          }                                                                   │\n│        ],                                                                    │\n│        \"extensions\": {                                                       │\n│          \"code\": \"ACCESS_DENIED\",                                            │\n│          \"documentation\": \"https://shopify.dev/api/usage/access-scopes\",     │\n│          \"requiredAccess\": \"`read_publications` access scope.\"               │\n│        },                                                                    │\n│        \"path\": [                                                             │\n│          \"publications\"                                                      │\n│        ]                                                                     │\n│      }                                                                       │\n│    ]                                                                         │\n│  }                                                                           │\n│                                                                              │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\n"
+    },
+    {
+      "resource": "locations",
+      "error": "Command failed: shopify store execute --store encore-food-service.myshopify.com --json --query query Locations {\n        locations(first: 100) {\n          nodes {\n            id\n            name\n            isActive\n            shipsInventory\n            fulfillsOnlineOrders\n            address {\n              country\n              province\n              city\n            }\n          }\n        }\n      } --output-file /tmp/shopify-cli-inventory-1787603003026-8f9jl29uf4w.json\nLoading stored store auth ...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\nExecuting GraphQL operation ...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\n╭─ error ──────────────────────────────────────────────────────────────────────╮\n│                                                                              │\n│  GraphQL operation failed.                                                   │\n│                                                                              │\n│  {                                                                           │\n│    \"errors\": [                                                               │\n│      {                                                                       │\n│        \"message\": \"Access denied for locations field.\",                      │\n│        \"locations\": [                                                        │\n│          {                                                                   │\n│            \"line\": 2,                                                        │\n│            \"column\": 9                                                       │\n│          }                                                                   │\n│        ],                                                                    │\n│        \"extensions\": {                                                       │\n│          \"code\": \"ACCESS_DENIED\",                                            │\n│          \"documentation\": \"https://shopify.dev/api/usage/access-scopes\"      │\n│        },                                                                    │\n│        \"path\": [                                                             │\n│          \"locations\"                                                         │\n│        ]                                                                     │\n│      }                                                                       │\n│    ]                                                                         │\n│  }                                                                           │\n│                                                                              │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\n"
+    },
+    {
+      "resource": "discounts-gift-cards",
+      "error": "Command failed: shopify store execute --store encore-food-service.myshopify.com --json --query query DiscountsAndGiftCards {\n        discountNodesCount {\n          count\n          precision\n        }\n        discountNodes(first: 20) {\n          nodes {\n            id\n            discount {\n              __typename\n              ... on DiscountCodeBasic {\n                title\n                status\n                startsAt\n                endsAt\n              }\n              ... on DiscountAutomaticBasic {\n                title\n                status\n                startsAt\n                endsAt\n              }\n              ... on DiscountCodeBxgy {\n                title\n                status\n                startsAt\n                endsAt\n              }\n              ... on DiscountAutomaticBxgy {\n                title\n                status\n                startsAt\n                endsAt\n              }\n            }\n          }\n        }\n        giftCardConfiguration {\n          issueLimit {\n            amount\n            currencyCode\n          }\n          purchaseLimit {\n            amount\n            currencyCode\n          }\n          expirationConfiguration {\n            expirationUnit\n            expirationValue\n          }\n        }\n        giftCardsCount {\n          count\n          precision\n        }\n      } --output-file /tmp/shopify-cli-inventory-1787603004249-8roryi0uim.json\nLoading stored store auth ...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\nExecuting GraphQL operation ...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\n╭─ error ──────────────────────────────────────────────────────────────────────╮\n│                                                                              │\n│  GraphQL operation failed.                                                   │\n│                                                                              │\n│  {                                                                           │\n│    \"errors\": [                                                               │\n│      {                                                                       │\n│        \"message\": \"Access denied for discountNodesCount field. Required      │\n│  access: `read_discounts` access scope.\",                                    │\n│        \"locations\": [                                                        │\n│          {                                                                   │\n│            \"line\": 2,                                                        │\n│            \"column\": 9                                                       │\n│          }                                                                   │\n│        ],                                                                    │\n│        \"extensions\": {                                                       │\n│          \"code\": \"ACCESS_DENIED\",                                            │\n│          \"documentation\": \"https://shopify.dev/api/usage/access-scopes\",     │\n│          \"requiredAccess\": \"`read_discounts` access scope.\"                  │\n│        },                                                                    │\n│        \"path\": [                                                             │\n│          \"discountNodesCount\"                                                │\n│        ]                                                                     │\n│      },                                                                      │\n│      {                                                                       │\n│        \"message\": \"Access denied for discountNodes field. Required access:   │\n│  Apps must have `read_discounts` access scope.\",                             │\n│        \"locations\": [                                                        │\n│          {                                                                   │\n│            \"line\": 6,                                                        │\n│            \"column\": 9                                                       │\n│          }                                                                   │\n│        ],                                                                    │\n│        \"extensions\": {                                                       │\n│          \"code\": \"ACCESS_DENIED\",                                            │\n│          \"documentation\": \"https://shopify.dev/api/usage/access-scopes\",     │\n│          \"requiredAccess\": \"Apps must have `read_discounts` access scope.\"   │\n│        },                                                                    │\n│        \"path\": [                                                             │\n│          \"discountNodes\"                                                     │\n│        ]                                                                     │\n│      }                                                                       │\n│    ]                                                                         │\n│  }                                                                           │\n│                                                                              │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\n"
+    },
+    {
+      "resource": "apps",
+      "error": "Command failed: shopify store execute --store encore-food-service.myshopify.com --json --query query Apps {\n        appInstallations(first: 100) {\n          nodes {\n            id\n            launchUrl\n            app {\n              id\n              title\n              handle\n            }\n          }\n        }\n      } --output-file /tmp/shopify-cli-inventory-1787603005547-m0lpafislx.json\nLoading stored store auth ...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\nExecuting GraphQL operation ...\n\u001b[2K\u001b[1A\u001b[2K\u001b[G\n╭─ error ──────────────────────────────────────────────────────────────────────╮\n│                                                                              │\n│  GraphQL operation failed.                                                   │\n│                                                                              │\n│  {                                                                           │\n│    \"errors\": [                                                               │\n│      {                                                                       │\n│        \"message\": \"access denied\",                                           │\n│        \"locations\": [                                                        │\n│          {                                                                   │\n│            \"line\": 2,                                                        │\n│            \"column\": 9                                                       │\n│          }                                                                   │\n│        ],                                                                    │\n│        \"extensions\": {                                                       │\n│          \"code\": \"ACCESS_DENIED\",                                            │\n│          \"documentation\": \"https://shopify.dev/api/usage/access-scopes\"      │\n│        },                                                                    │\n│        \"path\": [                                                             │\n│          \"appInstallations\"                                                  │\n│        ]                                                                     │\n│      }                                                                       │\n│    ]                                                                         │\n│  }                                                                           │\n│                                                                              │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\n"
+    }
+  ]
+}

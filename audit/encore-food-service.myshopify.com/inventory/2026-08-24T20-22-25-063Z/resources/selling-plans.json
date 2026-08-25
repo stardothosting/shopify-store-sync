@@ -1,0 +1,9 @@
+{
+  "name": "selling-plans",
+  "ok": true,
+  "data": {
+    "sellingPlanGroups": {
+      "nodes": []
+    }
+  }
+}

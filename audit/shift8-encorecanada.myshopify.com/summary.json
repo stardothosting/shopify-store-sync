@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-08-24T20:49:43.785Z",
+  "store": "shift8-encorecanada.myshopify.com",
+  "summary": {
+    "shop": {
+      "name": "shift8-encorecanada",
+      "id": "gid://shopify/Shop/74352951382",
+      "primaryDomain": {
+        "url": "https://shift8-encorecanada.myshopify.com"
+      }
+    },
+    "productsCount": {
+      "count": 410,
+      "precision": "EXACT"
+    },
+    "collectionsCount": {
+      "count": 18,
+      "precision": "EXACT"
+    },
+    "pagesCount": {
+      "count": 10,
+      "precision": "EXACT"
+    },
+    "blogs": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Blog/96913031254",
+          "handle": "news",
+          "title": "News"
+        }
+      ]
+    }
+  },
+  "exported": {
+    "products": 410,
+    "collections": 18,
+    "pages": 10,
+    "blogs": 1,
+    "articles": 0,
+    "menus": 9,
+    "redirects": 1
+  }
+}

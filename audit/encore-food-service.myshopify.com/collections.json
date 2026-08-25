@@ -1,0 +1,282 @@
+[
+  {
+    "id": "gid://shopify/Collection/451919216929",
+    "title": "Cups",
+    "handle": "cups",
+    "descriptionHtml": "<p data-mce-fragment=\"1\">Cups come in different materials and can be used for a variety of beverages such as cold and warm drinks.</p>",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "Cups"
+        }
+      ]
+    },
+    "updatedAt": "2026-06-03T20:04:47Z"
+  },
+  {
+    "id": "gid://shopify/Collection/451919511841",
+    "title": "Bags",
+    "handle": "bags",
+    "descriptionHtml": "<p data-mce-fragment=\"1\">Bags come in different materials and can be used to carry a variety of items such as small, large, light, or heavy.</p>",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "Bags"
+        }
+      ]
+    },
+    "updatedAt": "2026-06-03T20:04:47Z"
+  },
+  {
+    "id": "gid://shopify/Collection/451919675681",
+    "title": "Cutlery",
+    "handle": "cutlery",
+    "descriptionHtml": "Cutlery come in different materials, colors, and pack sizes such as bamboo, natural, and individually wrapped.",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "Cutlery"
+        }
+      ]
+    },
+    "updatedAt": "2026-06-03T20:04:59Z"
+  },
+  {
+    "id": "gid://shopify/Collection/451919839521",
+    "title": "Picks, Skewers & Sticks",
+    "handle": "picks-stick-skewers",
+    "descriptionHtml": "",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "Picks"
+        }
+      ]
+    },
+    "updatedAt": "2026-06-03T20:04:47Z"
+  },
+  {
+    "id": "gid://shopify/Collection/451919872289",
+    "title": "Plates & Trays",
+    "handle": "plates-trays",
+    "descriptionHtml": "<meta charset=\"utf-8\"><span data-mce-fragment=\"1\">Plates &amp; Trays can be found in different materials, colors, and pack sizes such as fiber, paper, bio-based, round, and square, or rectangular.</span><br>",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "Plates & Trays"
+        }
+      ]
+    },
+    "updatedAt": "2026-05-26T16:51:58Z"
+  },
+  {
+    "id": "gid://shopify/Collection/451919905057",
+    "title": "Napkins & Towels",
+    "handle": "towels-napkins",
+    "descriptionHtml": "Napkins &amp; towels can be found in a variety for materials, sizes, and colors. They are great for different usage.",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "Napkins & Towels"
+        }
+      ]
+    },
+    "updatedAt": "2026-06-03T20:04:48Z"
+  },
+  {
+    "id": "gid://shopify/Collection/451919970593",
+    "title": "Food Wrap",
+    "handle": "food-wrap",
+    "descriptionHtml": "<meta charset=\"utf-8\"><span data-mce-fragment=\"1\">Food wraps can be found in many materials such as plastic or aluminum. They are also available in a variety of dimensions and pack sizes.</span><br>",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "Food Wrap"
+        }
+      ]
+    },
+    "updatedAt": "2026-06-03T20:05:15Z"
+  },
+  {
+    "id": "gid://shopify/Collection/451920068897",
+    "title": "Wearables",
+    "handle": "gloves-wearables",
+    "descriptionHtml": "Wearables can be found in different materials, shape, sizes, and applications such as vinyl, large, white, or blue.",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "Wearables"
+        }
+      ]
+    },
+    "updatedAt": "2026-06-03T20:04:48Z"
+  },
+  {
+    "id": "gid://shopify/Collection/451938910497",
+    "title": "Straws",
+    "handle": "straws",
+    "descriptionHtml": "Straws can be found in different materials, size, and colors such as paper, sugarcane, regular, jumbo, white, or black.",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "Straws"
+        }
+      ]
+    },
+    "updatedAt": "2026-06-03T20:04:54Z"
+  },
+  {
+    "id": "gid://shopify/Collection/451942056225",
+    "title": "All",
+    "handle": "all",
+    "descriptionHtml": "<p data-mce-fragment=\"1\">All items in our catalogue are carefully chosen to meet our standards for quality and durability. They also comply with all local &amp; international regulations.</p>",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "All"
+        }
+      ]
+    },
+    "updatedAt": "2026-06-03T20:04:56Z"
+  },
+  {
+    "id": "gid://shopify/Collection/451946742049",
+    "title": "Special Offers",
+    "handle": "special-offers",
+    "descriptionHtml": "See all current special offers which may vary depending on the season, stock availability, brand, and promotions.",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "Special Offers"
+        }
+      ]
+    },
+    "updatedAt": "2026-05-26T16:51:59Z"
+  },
+  {
+    "id": "gid://shopify/Collection/451947102497",
+    "title": "Others",
+    "handle": "others",
+    "descriptionHtml": "Other items include napkins &amp; towels, food wrap, and wearables. All of these items can be found in different materials, sizes, colors, and applications.",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "Others"
+        }
+      ]
+    },
+    "updatedAt": "2026-06-03T20:04:58Z"
+  },
+  {
+    "id": "gid://shopify/Collection/451947397409",
+    "title": "Containers & Bowls",
+    "handle": "containers-bowls",
+    "descriptionHtml": "Containers &amp; Bowls come in many materials, sizes, shapes and colors such as fiber, large, round, and natural. They are also available in a variety of brands.<br>",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "Containers & Bowls"
+        }
+      ]
+    },
+    "updatedAt": "2026-06-03T20:05:12Z"
+  },
+  {
+    "id": "gid://shopify/Collection/452169695521",
+    "title": "Popular Items",
+    "handle": "popular-items",
+    "descriptionHtml": "",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "Popular Items"
+        }
+      ]
+    },
+    "updatedAt": "2026-06-03T20:06:25Z"
+  },
+  {
+    "id": "gid://shopify/Collection/452173103393",
+    "title": "Custom Branding",
+    "handle": "custom-branding",
+    "descriptionHtml": "Custom branding items are great to showcase your logo and colours. The minimum varies depending on the printing requirements.",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "Custom Branding"
+        }
+      ]
+    },
+    "updatedAt": "2026-06-03T20:06:25Z"
+  },
+  {
+    "id": "gid://shopify/Collection/452579557665",
+    "title": "Featured Items",
+    "handle": "featured-items",
+    "descriptionHtml": "",
+    "ruleSet": {
+      "appliedDisjunctively": false,
+      "rules": [
+        {
+          "column": "TAG",
+          "relation": "EQUALS",
+          "condition": "Featured Items"
+        }
+      ]
+    },
+    "updatedAt": "2026-06-03T20:09:00Z"
+  },
+  {
+    "id": "gid://shopify/Collection/515377594657",
+    "title": "Plastic Containers",
+    "handle": "plastic-containers",
+    "descriptionHtml": "",
+    "ruleSet": null,
+    "updatedAt": "2026-06-17T19:41:59Z"
+  }
+]

@@ -1,0 +1,1132 @@
+[
+  {
+    "id": "gid://shopify/Menu/243463323734",
+    "title": "Main menu",
+    "handle": "main-menu",
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/588040372310",
+        "title": "Containers & Bowls",
+        "type": "COLLECTION",
+        "url": "/collections/containers-bowls",
+        "resourceId": "gid://shopify/Collection/315216330838",
+        "tags": [],
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/588040405078",
+            "title": "Containers",
+            "type": "COLLECTION",
+            "url": "/collections/containers-bowls/Containers",
+            "resourceId": "gid://shopify/Collection/315216330838",
+            "tags": [
+              "Containers"
+            ],
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/588040437846",
+                "title": "Aluminum Containers",
+                "type": "COLLECTION",
+                "url": "/collections/containers-bowls/Aluminum-Containers",
+                "resourceId": "gid://shopify/Collection/315216330838",
+                "tags": [
+                  "Aluminum Containers"
+                ]
+              },
+              {
+                "id": "gid://shopify/MenuItem/588040470614",
+                "title": "Fiber Containers",
+                "type": "COLLECTION",
+                "url": "/collections/containers-bowls/Fiber-Containers",
+                "resourceId": "gid://shopify/Collection/315216330838",
+                "tags": [
+                  "Fiber Containers"
+                ]
+              },
+              {
+                "id": "gid://shopify/MenuItem/588040503382",
+                "title": "Plastic Containers",
+                "type": "COLLECTION",
+                "url": "/collections/containers-bowls/Plastic-Containers",
+                "resourceId": "gid://shopify/Collection/315216330838",
+                "tags": [
+                  "Plastic Containers"
+                ]
+              },
+              {
+                "id": "gid://shopify/MenuItem/588040536150",
+                "title": "Reusable Containers",
+                "type": "COLLECTION",
+                "url": "/collections/containers-bowls/Reusable-Containers",
+                "resourceId": "gid://shopify/Collection/315216330838",
+                "tags": [
+                  "Reusable Containers"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "gid://shopify/MenuItem/588040568918",
+            "title": "Bowls",
+            "type": "COLLECTION",
+            "url": "/collections/containers-bowls/Bowls",
+            "resourceId": "gid://shopify/Collection/315216330838",
+            "tags": [
+              "Bowls"
+            ],
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/588040601686",
+                "title": "Fiber Bowls",
+                "type": "COLLECTION",
+                "url": "/collections/containers-bowls/Fiber-Bowls",
+                "resourceId": "gid://shopify/Collection/315216330838",
+                "tags": [
+                  "Fiber Bowls"
+                ]
+              },
+              {
+                "id": "gid://shopify/MenuItem/588040634454",
+                "title": "Paper & Kraft Bowls",
+                "type": "COLLECTION",
+                "url": "/collections/containers-bowls/Paper-&-Kraft-Bowls",
+                "resourceId": "gid://shopify/Collection/315216330838",
+                "tags": [
+                  "Paper & Kraft Bowls"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "gid://shopify/MenuItem/588040667222",
+            "title": "Boxes",
+            "type": "COLLECTION",
+            "url": "/collections/containers-bowls/Boxes",
+            "resourceId": "gid://shopify/Collection/315216330838",
+            "tags": [
+              "Boxes"
+            ],
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/588040699990",
+                "title": "Paper Takeout Boxes",
+                "type": "COLLECTION",
+                "url": "/collections/containers-bowls/Paper-Takeout-Boxes",
+                "resourceId": "gid://shopify/Collection/315216330838",
+                "tags": [
+                  "Paper Takeout Boxes"
+                ]
+              },
+              {
+                "id": "gid://shopify/MenuItem/588040732758",
+                "title": "Pizza Boxes",
+                "type": "COLLECTION",
+                "url": "/collections/containers-bowls/Pizza-Boxes",
+                "resourceId": "gid://shopify/Collection/315216330838",
+                "tags": [
+                  "Pizza Boxes"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/MenuItem/588040765526",
+        "title": "Bags",
+        "type": "COLLECTION",
+        "url": "/collections/bags",
+        "resourceId": "gid://shopify/Collection/315215970390",
+        "tags": [],
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/588040798294",
+            "title": "Bakery Bags",
+            "type": "COLLECTION",
+            "url": "/collections/bags/Bakery-Bags",
+            "resourceId": "gid://shopify/Collection/315215970390",
+            "tags": [
+              "Bakery Bags"
+            ],
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/588040831062",
+            "title": "Garbage Bags",
+            "type": "COLLECTION",
+            "url": "/collections/bags/Garbage-Bags",
+            "resourceId": "gid://shopify/Collection/315215970390",
+            "tags": [
+              "Garbage Bags"
+            ],
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/588040863830",
+            "title": "Paper Bags",
+            "type": "COLLECTION",
+            "url": "/collections/bags/Paper-Bags",
+            "resourceId": "gid://shopify/Collection/315215970390",
+            "tags": [
+              "Paper Bags"
+            ],
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/588040896598",
+            "title": "Poly Bags",
+            "type": "COLLECTION",
+            "url": "/collections/bags/Poly-Bags",
+            "resourceId": "gid://shopify/Collection/315215970390",
+            "tags": [
+              "Poly Bags"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/MenuItem/588040929366",
+        "title": "Cups",
+        "type": "COLLECTION",
+        "url": "/collections/cups",
+        "resourceId": "gid://shopify/Collection/315215904854",
+        "tags": [],
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/588040962134",
+            "title": "Cold Cups",
+            "type": "COLLECTION",
+            "url": "/collections/cups/Cold-Cups",
+            "resourceId": "gid://shopify/Collection/315215904854",
+            "tags": [
+              "Cold Cups"
+            ],
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/588040994902",
+            "title": "Dessert Cups",
+            "type": "COLLECTION",
+            "url": "/collections/cups/Dessert-Cups",
+            "resourceId": "gid://shopify/Collection/315215904854",
+            "tags": [
+              "Dessert Cups"
+            ],
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/588041027670",
+            "title": "Hot Cups",
+            "type": "COLLECTION",
+            "url": "/collections/cups/Hot-Cups",
+            "resourceId": "gid://shopify/Collection/315215904854",
+            "tags": [
+              "Hot Cups"
+            ],
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/588041060438",
+            "title": "Portion Cups",
+            "type": "COLLECTION",
+            "url": "/collections/cups/Portion-Cups",
+            "resourceId": "gid://shopify/Collection/315215904854",
+            "tags": [
+              "Portion Cups"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/MenuItem/588041093206",
+        "title": "Cutlery",
+        "type": "COLLECTION",
+        "url": "/collections/cutlery",
+        "resourceId": "gid://shopify/Collection/315216003158",
+        "tags": [],
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/588041125974",
+            "title": "Individual Cutlery",
+            "type": "COLLECTION",
+            "url": "/collections/cutlery/Individual-Cutlery",
+            "resourceId": "gid://shopify/Collection/315216003158",
+            "tags": [
+              "Individual Cutlery"
+            ],
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/588041158742",
+            "title": "Cutlery Kits",
+            "type": "COLLECTION",
+            "url": "/collections/cutlery/Cutlery-Kits",
+            "resourceId": "gid://shopify/Collection/315216003158",
+            "tags": [
+              "Cutlery Kits"
+            ],
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/588041191510",
+            "title": "Chopsticks",
+            "type": "COLLECTION",
+            "url": "/collections/cutlery/Chopsticks",
+            "resourceId": "gid://shopify/Collection/315216003158",
+            "tags": [
+              "Chopsticks"
+            ],
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/588041224278",
+            "title": "Picks, Skewers & Sticks",
+            "type": "COLLECTION",
+            "url": "/collections/cutlery/Picks",
+            "resourceId": "gid://shopify/Collection/315216003158",
+            "tags": [
+              "Picks"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/MenuItem/588041257046",
+        "title": "Straws",
+        "type": "COLLECTION",
+        "url": "/collections/straws",
+        "resourceId": "gid://shopify/Collection/315216199766",
+        "tags": [],
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/588041289814",
+            "title": "Paper Straws",
+            "type": "COLLECTION",
+            "url": "/collections/straws/Paper-Straws",
+            "resourceId": "gid://shopify/Collection/315216199766",
+            "tags": [
+              "Paper Straws"
+            ],
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/588041322582",
+            "title": "Sugarcane Straws",
+            "type": "COLLECTION",
+            "url": "/collections/straws/Sugarcane-Straws",
+            "resourceId": "gid://shopify/Collection/315216199766",
+            "tags": [
+              "Sugarcane Straws"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/MenuItem/588041355350",
+        "title": "Others",
+        "type": "COLLECTION",
+        "url": "/collections/others",
+        "resourceId": "gid://shopify/Collection/315216298070",
+        "tags": [],
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/588041388118",
+            "title": "Napkins & Towels",
+            "type": "COLLECTION",
+            "url": "/collections/towels-napkins",
+            "resourceId": "gid://shopify/Collection/315216101462",
+            "tags": [],
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/588041420886",
+                "title": "Dispenser Napkins",
+                "type": "COLLECTION",
+                "url": "/collections/towels-napkins/Dispenser-Napkins",
+                "resourceId": "gid://shopify/Collection/315216101462",
+                "tags": [
+                  "Dispenser Napkins"
+                ]
+              },
+              {
+                "id": "gid://shopify/MenuItem/588041453654",
+                "title": "Dinner Napkins",
+                "type": "COLLECTION",
+                "url": "/collections/towels-napkins/Dinner-Napkins",
+                "resourceId": "gid://shopify/Collection/315216101462",
+                "tags": [
+                  "Dinner Napkins"
+                ]
+              },
+              {
+                "id": "gid://shopify/MenuItem/588041486422",
+                "title": "Luncheon Napkins",
+                "type": "COLLECTION",
+                "url": "/collections/towels-napkins/Luncheon-Napkins",
+                "resourceId": "gid://shopify/Collection/315216101462",
+                "tags": [
+                  "Luncheon Napkins"
+                ]
+              },
+              {
+                "id": "gid://shopify/MenuItem/588041519190",
+                "title": "Cocktail Napkins",
+                "type": "COLLECTION",
+                "url": "/collections/towels-napkins/Cocktail-Napkins",
+                "resourceId": "gid://shopify/Collection/315216101462",
+                "tags": [
+                  "Cocktail Napkins"
+                ]
+              },
+              {
+                "id": "gid://shopify/MenuItem/588041551958",
+                "title": "Napkin Bands",
+                "type": "COLLECTION",
+                "url": "/collections/towels-napkins/Napkin-Bands",
+                "resourceId": "gid://shopify/Collection/315216101462",
+                "tags": [
+                  "Napkin Bands"
+                ]
+              },
+              {
+                "id": "gid://shopify/MenuItem/588041584726",
+                "title": "Wet Napkins",
+                "type": "COLLECTION",
+                "url": "/collections/towels-napkins/Wet-Napkins",
+                "resourceId": "gid://shopify/Collection/315216101462",
+                "tags": [
+                  "Wet Napkins"
+                ]
+              },
+              {
+                "id": "gid://shopify/MenuItem/588041617494",
+                "title": "Foodservice Towels",
+                "type": "COLLECTION",
+                "url": "/collections/towels-napkins/Foodservice-Towels",
+                "resourceId": "gid://shopify/Collection/315216101462",
+                "tags": [
+                  "Foodservice Towels"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "gid://shopify/MenuItem/588041650262",
+            "title": "Food Wrap",
+            "type": "COLLECTION",
+            "url": "/collections/food-wrap",
+            "resourceId": "gid://shopify/Collection/315216134230",
+            "tags": [],
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/588041683030",
+                "title": "Aluminum Film",
+                "type": "COLLECTION",
+                "url": "/collections/food-wrap/Aluminum-Film",
+                "resourceId": "gid://shopify/Collection/315216134230",
+                "tags": [
+                  "Aluminum Film"
+                ]
+              },
+              {
+                "id": "gid://shopify/MenuItem/588041715798",
+                "title": "Plastic Film",
+                "type": "COLLECTION",
+                "url": "/collections/food-wrap/Plastic-Film",
+                "resourceId": "gid://shopify/Collection/315216134230",
+                "tags": [
+                  "Plastic Film"
+                ]
+              },
+              {
+                "id": "gid://shopify/MenuItem/588041748566",
+                "title": "Insulated Sheets",
+                "type": "COLLECTION",
+                "url": "/collections/food-wrap/Sheets",
+                "resourceId": "gid://shopify/Collection/315216134230",
+                "tags": [
+                  "Sheets"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "gid://shopify/MenuItem/588041781334",
+            "title": "Wearables",
+            "type": "COLLECTION",
+            "url": "/collections/gloves-wearables",
+            "resourceId": "gid://shopify/Collection/315216166998",
+            "tags": [],
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/588041814102",
+                "title": "Aprons",
+                "type": "COLLECTION",
+                "url": "/collections/gloves-wearables/Aprons",
+                "resourceId": "gid://shopify/Collection/315216166998",
+                "tags": [
+                  "Aprons"
+                ]
+              },
+              {
+                "id": "gid://shopify/MenuItem/588041846870",
+                "title": "Gloves",
+                "type": "COLLECTION",
+                "url": "/collections/gloves-wearables/Gloves",
+                "resourceId": "gid://shopify/Collection/315216166998",
+                "tags": [
+                  "Gloves"
+                ]
+              },
+              {
+                "id": "gid://shopify/MenuItem/588041879638",
+                "title": "Nets & Hats",
+                "type": "COLLECTION",
+                "url": "/collections/gloves-wearables/Nets",
+                "resourceId": "gid://shopify/Collection/315216166998",
+                "tags": [
+                  "Nets"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Menu/243463356502",
+    "title": "Footer menu",
+    "handle": "footer",
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/588041912406",
+        "title": "Customer Portal",
+        "type": "PAGE",
+        "url": "/pages/customer-portal",
+        "resourceId": "gid://shopify/Page/260975296598",
+        "tags": [],
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/588041945174",
+        "title": "Search",
+        "type": "SEARCH",
+        "url": "/search",
+        "resourceId": null,
+        "tags": [],
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/588041977942",
+        "title": "Refunds & Returns",
+        "type": "PAGE",
+        "url": "/pages/refunds-returns",
+        "resourceId": "gid://shopify/Page/260975198294",
+        "tags": [],
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/588042010710",
+        "title": "Delivery Options",
+        "type": "PAGE",
+        "url": "/pages/delivery-options",
+        "resourceId": "gid://shopify/Page/260975165526",
+        "tags": [],
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/588042043478",
+        "title": "Contact Us",
+        "type": "PAGE",
+        "url": "/pages/contact-us",
+        "resourceId": "gid://shopify/Page/260975067222",
+        "tags": [],
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/588042076246",
+        "title": "FAQs",
+        "type": "PAGE",
+        "url": "/pages/faqs",
+        "resourceId": "gid://shopify/Page/260975132758",
+        "tags": [],
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/588042109014",
+        "title": "Privacy Policy",
+        "type": "PAGE",
+        "url": "/pages/privacy-policy",
+        "resourceId": "gid://shopify/Page/260975231062",
+        "tags": [],
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/588042141782",
+        "title": "Terms & Conditions",
+        "type": "PAGE",
+        "url": "/pages/terms-conditions",
+        "resourceId": "gid://shopify/Page/260975263830",
+        "tags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Menu/243463389270",
+    "title": "Customer account main menu",
+    "handle": "customer-account-main-menu",
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/587540168790",
+        "title": "Orders",
+        "type": "CUSTOMER_ACCOUNT_PAGE",
+        "url": "https://shopify.com/74352951382/account/orders",
+        "resourceId": "gid://shopify/CustomerAccountPage/108770000982",
+        "tags": [],
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/587540201558",
+        "title": "Profile",
+        "type": "CUSTOMER_ACCOUNT_PAGE",
+        "url": "https://shopify.com/74352951382/account/profile",
+        "resourceId": "gid://shopify/CustomerAccountPage/108770033750",
+        "tags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Menu/243655606358",
+    "title": "Navigation menu",
+    "handle": "navigation-menu",
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/588042174550",
+        "title": "Customer Portal",
+        "type": "PAGE",
+        "url": "/pages/customer-portal",
+        "resourceId": "gid://shopify/Page/260975296598",
+        "tags": [],
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/588042207318",
+        "title": "Delivery Options",
+        "type": "PAGE",
+        "url": "/pages/delivery-options",
+        "resourceId": "gid://shopify/Page/260975165526",
+        "tags": [],
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/588042240086",
+        "title": "Contact Us",
+        "type": "PAGE",
+        "url": "/pages/contact-us",
+        "resourceId": "gid://shopify/Page/260975067222",
+        "tags": [],
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/588042272854",
+        "title": "FAQs",
+        "type": "PAGE",
+        "url": "/pages/faqs",
+        "resourceId": "gid://shopify/Page/260975132758",
+        "tags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Menu/243655639126",
+    "title": "Navigation menu end",
+    "handle": "navigation-menu-end",
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/588042305622",
+        "title": "Special Offers",
+        "type": "COLLECTION",
+        "url": "/collections/special-offers",
+        "resourceId": "gid://shopify/Collection/315216265302",
+        "tags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Menu/243655671894",
+    "title": "Top Categories",
+    "handle": "top-categories",
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/588042338390",
+        "title": "Containers & Bowls",
+        "type": "COLLECTION",
+        "url": "/collections/containers-bowls",
+        "resourceId": "gid://shopify/Collection/315216330838",
+        "tags": [],
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/588042371158",
+        "title": "Food Wrap",
+        "type": "COLLECTION",
+        "url": "/collections/food-wrap",
+        "resourceId": "gid://shopify/Collection/315216134230",
+        "tags": [],
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/588042403926",
+        "title": "Plates & Trays",
+        "type": "COLLECTION",
+        "url": "/collections/plates-trays",
+        "resourceId": "gid://shopify/Collection/315216068694",
+        "tags": [],
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/588042436694",
+        "title": "Bags",
+        "type": "COLLECTION",
+        "url": "/collections/bags",
+        "resourceId": "gid://shopify/Collection/315215970390",
+        "tags": [],
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/588042469462",
+        "title": "Custom Branding",
+        "type": "COLLECTION",
+        "url": "/collections/custom-branding",
+        "resourceId": "gid://shopify/Collection/315216396374",
+        "tags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Menu/243655704662",
+    "title": "New Menu Test",
+    "handle": "products",
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/588042502230",
+        "title": "Products",
+        "type": "COLLECTIONS",
+        "url": "/collections",
+        "resourceId": null,
+        "tags": [],
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/588042534998",
+            "title": "Bags",
+            "type": "COLLECTION",
+            "url": "/collections/bags",
+            "resourceId": "gid://shopify/Collection/315215970390",
+            "tags": [],
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/588042567766",
+                "title": "Paper Bags",
+                "type": "COLLECTION",
+                "url": "/collections/bags",
+                "resourceId": "gid://shopify/Collection/315215970390",
+                "tags": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/588042600534",
+                "title": "Plastic Bags",
+                "type": "COLLECTION",
+                "url": "/collections/bags",
+                "resourceId": "gid://shopify/Collection/315215970390",
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": "gid://shopify/MenuItem/588042633302",
+            "title": "Containers",
+            "type": "COLLECTION",
+            "url": "/collections/containers-bowls",
+            "resourceId": "gid://shopify/Collection/315216330838",
+            "tags": [],
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/588042666070",
+                "title": "Aluminum Containers",
+                "type": "COLLECTION",
+                "url": "/collections/containers-bowls",
+                "resourceId": "gid://shopify/Collection/315216330838",
+                "tags": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/588042698838",
+                "title": "Bagasse Containers",
+                "type": "COLLECTION",
+                "url": "/collections/containers-bowls",
+                "resourceId": "gid://shopify/Collection/315216330838",
+                "tags": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/588042731606",
+                "title": "Bioplastic Containers",
+                "type": "COLLECTION",
+                "url": "/collections/containers-bowls",
+                "resourceId": "gid://shopify/Collection/315216330838",
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": "gid://shopify/MenuItem/588042764374",
+            "title": "Cups",
+            "type": "COLLECTION",
+            "url": "/collections/cups",
+            "resourceId": "gid://shopify/Collection/315215904854",
+            "tags": [],
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/588042797142",
+                "title": "Cold Cups",
+                "type": "COLLECTION",
+                "url": "/collections/cups",
+                "resourceId": "gid://shopify/Collection/315215904854",
+                "tags": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/588042829910",
+                "title": "Hot Cups",
+                "type": "COLLECTION",
+                "url": "/collections/containers-bowls",
+                "resourceId": "gid://shopify/Collection/315216330838",
+                "tags": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/588042862678",
+                "title": "Portion Cups",
+                "type": "COLLECTION",
+                "url": "/collections/containers-bowls",
+                "resourceId": "gid://shopify/Collection/315216330838",
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": "gid://shopify/MenuItem/588042895446",
+            "title": "Cutlery",
+            "type": "COLLECTION",
+            "url": "/collections/cutlery",
+            "resourceId": "gid://shopify/Collection/315216003158",
+            "tags": [],
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/588042928214",
+                "title": "Bioplastic Cutlery",
+                "type": "COLLECTION",
+                "url": "/collections/cutlery",
+                "resourceId": "gid://shopify/Collection/315216003158",
+                "tags": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/588042960982",
+                "title": "Picks & Skewers",
+                "type": "COLLECTION",
+                "url": "/collections/cutlery",
+                "resourceId": "gid://shopify/Collection/315216003158",
+                "tags": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/588042993750",
+                "title": "Plastic Cutlery",
+                "type": "COLLECTION",
+                "url": "/collections/cutlery",
+                "resourceId": "gid://shopify/Collection/315216003158",
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": "gid://shopify/MenuItem/588043026518",
+            "title": "Food Wrap",
+            "type": "COLLECTION",
+            "url": "/collections/food-wrap",
+            "resourceId": "gid://shopify/Collection/315216134230",
+            "tags": [],
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/588043059286",
+                "title": "Aluminum Foil Wrap",
+                "type": "COLLECTION",
+                "url": "/collections/food-wrap",
+                "resourceId": "gid://shopify/Collection/315216134230",
+                "tags": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/588043092054",
+                "title": "Paper Wrap",
+                "type": "COLLECTION",
+                "url": "/collections/food-wrap",
+                "resourceId": "gid://shopify/Collection/315216134230",
+                "tags": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/588043124822",
+                "title": "Plastic Wrap",
+                "type": "COLLECTION",
+                "url": "/collections/food-wrap",
+                "resourceId": "gid://shopify/Collection/315216134230",
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": "gid://shopify/MenuItem/588043157590",
+            "title": "Napkins & Wipes",
+            "type": "COLLECTION",
+            "url": "/collections/towels-napkins",
+            "resourceId": "gid://shopify/Collection/315216101462",
+            "tags": [],
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/588043190358",
+                "title": "Napkins",
+                "type": "COLLECTION",
+                "url": "/collections/towels-napkins",
+                "resourceId": "gid://shopify/Collection/315216101462",
+                "tags": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/588043223126",
+                "title": "Wipes",
+                "type": "COLLECTION",
+                "url": "/collections/towels-napkins",
+                "resourceId": "gid://shopify/Collection/315216101462",
+                "tags": []
+              }
+            ]
+          },
+          {
+            "id": "gid://shopify/MenuItem/588043255894",
+            "title": "Wearables",
+            "type": "COLLECTION",
+            "url": "/collections/gloves-wearables",
+            "resourceId": "gid://shopify/Collection/315216166998",
+            "tags": [],
+            "items": [
+              {
+                "id": "gid://shopify/MenuItem/588043288662",
+                "title": "Aprons",
+                "type": "COLLECTION",
+                "url": "/collections/gloves-wearables",
+                "resourceId": "gid://shopify/Collection/315216166998",
+                "tags": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/588043321430",
+                "title": "Gloves",
+                "type": "COLLECTION",
+                "url": "/collections/gloves-wearables",
+                "resourceId": "gid://shopify/Collection/315216166998",
+                "tags": []
+              },
+              {
+                "id": "gid://shopify/MenuItem/588043354198",
+                "title": "Hair Nets",
+                "type": "COLLECTION",
+                "url": "/collections/containers-bowls",
+                "resourceId": "gid://shopify/Collection/315216330838",
+                "tags": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/MenuItem/588043386966",
+        "title": "Solutions",
+        "type": "COLLECTIONS",
+        "url": "/collections",
+        "resourceId": null,
+        "tags": [],
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/588043419734",
+            "title": "Custom Branding",
+            "type": "PAGE",
+            "url": "/pages/faqs",
+            "resourceId": "gid://shopify/Page/260975132758",
+            "tags": [],
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/588043452502",
+            "title": "Warehousing & Distribution",
+            "type": "PAGE",
+            "url": "/pages/about-us",
+            "resourceId": "gid://shopify/Page/260975099990",
+            "tags": [],
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/588043485270",
+            "title": "Online Ordering",
+            "type": "PAGE",
+            "url": "/pages/customer-portal",
+            "resourceId": "gid://shopify/Page/260975296598",
+            "tags": [],
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/588043518038",
+            "title": "EDI Integration",
+            "type": "PAGE",
+            "url": "/pages/contact-us",
+            "resourceId": "gid://shopify/Page/260975067222",
+            "tags": [],
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/MenuItem/588043550806",
+        "title": "Customers",
+        "type": "PAGE",
+        "url": "/pages/about-us",
+        "resourceId": "gid://shopify/Page/260975099990",
+        "tags": [],
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/588043583574",
+            "title": "Restaurants",
+            "type": "PAGE",
+            "url": "/pages/about-us",
+            "resourceId": "gid://shopify/Page/260975099990",
+            "tags": [],
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/588043616342",
+            "title": "Restaurant Groups",
+            "type": "PAGE",
+            "url": "/pages/about-us",
+            "resourceId": "gid://shopify/Page/260975099990",
+            "tags": [],
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/588043649110",
+            "title": "Coffee Shops",
+            "type": "PAGE",
+            "url": "/pages/contact-us",
+            "resourceId": "gid://shopify/Page/260975067222",
+            "tags": [],
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/MenuItem/588043681878",
+        "title": "Resources",
+        "type": "PAGE",
+        "url": "/pages/contact-us",
+        "resourceId": "gid://shopify/Page/260975067222",
+        "tags": [],
+        "items": [
+          {
+            "id": "gid://shopify/MenuItem/588043714646",
+            "title": "Insights",
+            "type": "BLOG",
+            "url": "/blogs/news",
+            "resourceId": "gid://shopify/Blog/96913031254",
+            "tags": [],
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/588043747414",
+            "title": "FAQs",
+            "type": "PAGE",
+            "url": "/pages/faqs",
+            "resourceId": "gid://shopify/Page/260975132758",
+            "tags": [],
+            "items": []
+          },
+          {
+            "id": "gid://shopify/MenuItem/588043780182",
+            "title": "Forms",
+            "type": "PAGE",
+            "url": "/pages/about-us",
+            "resourceId": "gid://shopify/Page/260975099990",
+            "tags": [],
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "gid://shopify/MenuItem/588043812950",
+        "title": "Contact",
+        "type": "PAGE",
+        "url": "/pages/contact-us",
+        "resourceId": "gid://shopify/Page/260975067222",
+        "tags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Menu/243656097878",
+    "title": "FAQs",
+    "handle": "faqs",
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/588043845718",
+        "title": "About Us",
+        "type": "PAGE",
+        "url": "/pages/faqs",
+        "resourceId": "gid://shopify/Page/260975132758",
+        "tags": [],
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/588043878486",
+        "title": "Careers",
+        "type": "PAGE",
+        "url": "/pages/contact-us",
+        "resourceId": "gid://shopify/Page/260975067222",
+        "tags": [],
+        "items": []
+      },
+      {
+        "id": "gid://shopify/MenuItem/588043911254",
+        "title": "New Vendor",
+        "type": "PAGE",
+        "url": "/pages/about-us",
+        "resourceId": "gid://shopify/Page/260975099990",
+        "tags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": "gid://shopify/Menu/243656130646",
+    "title": "Become a Customer",
+    "handle": "become-a-customer",
+    "items": [
+      {
+        "id": "gid://shopify/MenuItem/588043944022",
+        "title": "Become a Customer",
+        "type": "PAGE",
+        "url": "/pages/contact-us",
+        "resourceId": "gid://shopify/Page/260975067222",
+        "tags": [],
+        "items": []
+      }
+    ]
+  }
+]

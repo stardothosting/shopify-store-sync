@@ -1,15 +1,18 @@
+/* eslint-env node */
+/* global require, console, module */
 const Shopify = require('shopify-api-node');
-const fs = require('fs');
+const fs = require('node:fs');
 class Migrator {
-  constructor(sourceStore, destinationStore, verbosity = 4, saveData) {
+  constructor(sourceStore, destinationStore, verbosity = 4, saveData, options = {}) {
     this.config = {
       source: sourceStore,
       destination: destinationStore
     }
     this.saveData = !!saveData
     this.verbosity = verbosity
+    this.readOnly = !!options.readOnly
     this.source = new Shopify(sourceStore);
-    this.destination = new Shopify(destinationStore);
+    this.destination = destinationStore ? new Shopify(destinationStore) : null;
     if (this.saveData) {
       const types = ['products', 'pages', 'metafields', 'collections', 'articles', 'blogs']
       types.forEach(type => {
@@ -55,8 +58,6 @@ class Migrator {
   }
   async testConnection() {
     const sourceScopes = await this.source.accessScope.list()
-    // console.log('xx')
-    const destinationScopes = await this.destination.accessScope.list()
     this.requiredScopes.source.forEach((scopes) => {
       const scopeFound = !!sourceScopes.find(scope => scopes.indexOf(scope.handle) !== -1)
       if (!scopeFound) {
@@ -65,6 +66,10 @@ class Migrator {
         throw new Error(message)
       }
     })
+    if (this.readOnly) {
+      return
+    }
+    const destinationScopes = await this.destination.accessScope.list()
     this.requiredScopes.destination.forEach((scopes) => {
       const scopeFound = !!destinationScopes.find(scope => scopes.indexOf(scope.handle) !== -1)
       if (!scopeFound) {
@@ -73,6 +78,71 @@ class Migrator {
         throw new Error(message)
       }
     })
+  }
+  _saveResource(type, id, payload) {
+    if (!this.saveData) {
+      return
+    }
+    fs.writeFileSync(`data/${type}/${id}.json`, JSON.stringify(payload, null, 2))
+  }
+  async _listAll(listFn) {
+    const items = []
+    let params = { limit: 250 }
+    do {
+      const page = await listFn(params)
+      page.forEach(item => items.push(item))
+      params = page.nextPageParameters;
+    } while (params !== undefined);
+    return items
+  }
+  async auditSource() {
+    const counts = {}
+    const sourceScopes = await this.source.accessScope.list()
+    const products = await this._listAll((params) => this.source.product.list(params))
+    const pages = await this._listAll((params) => this.source.page.list(params))
+    const smartCollections = await this._listAll((params) => this.source.smartCollection.list(params))
+    const customCollections = await this._listAll((params) => this.source.customCollection.list(params))
+    const blogs = await this._listAll((params) => this.source.blog.list(params))
+    const shopMetafields = await this._listAll((params) => this.source.metafield.list(params))
+    const articles = []
+
+    await this.asyncForEach(blogs, async (blog) => {
+      const blogArticles = await this._listAll((params) => this.source.article.list(blog.id, params))
+      blogArticles.forEach(article => articles.push(article))
+      this._saveResource('blogs', blog.id, blog)
+      blogArticles.forEach(article => this._saveResource('articles', article.id, article))
+    })
+
+    products.forEach(product => this._saveResource('products', product.id, product))
+    pages.forEach(page => this._saveResource('pages', page.id, page))
+    smartCollections.forEach(collection => this._saveResource('collections', `smart-${collection.id}`, collection))
+    customCollections.forEach(collection => this._saveResource('collections', `custom-${collection.id}`, collection))
+    shopMetafields.forEach(metafield => this._saveResource('metafields', metafield.id, metafield))
+
+    counts.products = products.length
+    counts.pages = pages.length
+    counts.smartCollections = smartCollections.length
+    counts.customCollections = customCollections.length
+    counts.blogs = blogs.length
+    counts.articles = articles.length
+    counts.shopMetafields = shopMetafields.length
+
+    const summary = {
+      mode: 'audit',
+      safeForSourceStore: true,
+      sourceStore: this.config.source.shopName,
+      timestamp: new Date().toISOString(),
+      sourceScopes: sourceScopes.map(scope => scope.handle).sort(),
+      counts
+    }
+
+    if (this.saveData) {
+      fs.writeFileSync('data/audit-summary.json', JSON.stringify(summary, null, 2))
+    }
+
+    this.log('Source store audit finished:')
+    Object.entries(counts).forEach(([key, value]) => this.log(`- ${key}: ${value}`))
+    return summary
   }
   async asyncForEach(array, callback, concurrency = 1) {
     const promises = [];

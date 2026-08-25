@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-08-24T20:49:04.329Z",
+  "store": "encore-food-service.myshopify.com",
+  "summary": {
+    "shop": {
+      "name": "Encore Canada",
+      "id": "gid://shopify/Shop/78278492449",
+      "primaryDomain": {
+        "url": "https://encorecanada.com"
+      }
+    },
+    "productsCount": {
+      "count": 410,
+      "precision": "EXACT"
+    },
+    "collectionsCount": {
+      "count": 17,
+      "precision": "EXACT"
+    },
+    "pagesCount": {
+      "count": 8,
+      "precision": "EXACT"
+    },
+    "blogs": {
+      "nodes": [
+        {
+          "id": "gid://shopify/Blog/100850663713",
+          "handle": "news",
+          "title": "News"
+        }
+      ]
+    }
+  },
+  "exported": {
+    "products": 410,
+    "collections": 17,
+    "pages": 8,
+    "blogs": 1,
+    "articles": 0,
+    "menus": 9,
+    "redirects": 1
+  }
+}
