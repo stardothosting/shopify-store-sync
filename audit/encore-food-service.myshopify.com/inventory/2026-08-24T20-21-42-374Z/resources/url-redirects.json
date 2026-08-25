@@ -1,0 +1,19 @@
+{
+  "name": "url-redirects",
+  "ok": true,
+  "data": {
+    "urlRedirects": {
+      "nodes": [
+        {
+          "id": "gid://shopify/UrlRedirect/432510697761",
+          "path": "/pages/contact",
+          "target": "/pages/contact-us"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "eyJsYXN0X2lkIjo0MzI1MTA2OTc3NjEsImxhc3RfdmFsdWUiOiI0MzI1MTA2OTc3NjEifQ=="
+      }
+    }
+  }
+}

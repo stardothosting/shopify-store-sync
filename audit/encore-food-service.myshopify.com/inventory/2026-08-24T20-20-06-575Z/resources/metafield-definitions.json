@@ -1,0 +1,777 @@
+{
+  "name": "metafield-definitions",
+  "ok": true,
+  "data": {
+    "ownerTypes": {
+      "enumValues": [
+        {
+          "name": "API_PERMISSION"
+        },
+        {
+          "name": "COMPANY"
+        },
+        {
+          "name": "COMPANY_LOCATION"
+        },
+        {
+          "name": "PAYMENT_CUSTOMIZATION"
+        },
+        {
+          "name": "VALIDATION"
+        },
+        {
+          "name": "CUSTOMER"
+        },
+        {
+          "name": "DELIVERY_CUSTOMIZATION"
+        },
+        {
+          "name": "DRAFTORDER"
+        },
+        {
+          "name": "GIFT_CARD_TRANSACTION"
+        },
+        {
+          "name": "TRANSFER"
+        },
+        {
+          "name": "MARKET"
+        },
+        {
+          "name": "CARTTRANSFORM"
+        },
+        {
+          "name": "COLLECTION"
+        },
+        {
+          "name": "PRODUCT"
+        },
+        {
+          "name": "PRODUCTVARIANT"
+        },
+        {
+          "name": "SELLING_PLAN"
+        },
+        {
+          "name": "ARTICLE"
+        },
+        {
+          "name": "BLOG"
+        },
+        {
+          "name": "PAGE"
+        },
+        {
+          "name": "FULFILLMENT_CONSTRAINT_RULE"
+        },
+        {
+          "name": "ORDER_ROUTING_LOCATION_RULE"
+        },
+        {
+          "name": "DISCOUNT"
+        },
+        {
+          "name": "ORDER"
+        },
+        {
+          "name": "LOCATION"
+        },
+        {
+          "name": "SHOP"
+        }
+      ]
+    },
+    "shop": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MetafieldDefinition/205032423713",
+          "namespace": "mm_google_shopping_extension",
+          "key": "show_store_widget_app_embed_block",
+          "name": "Google: Show Store Widget App Embed Block",
+          "type": {
+            "name": "boolean"
+          },
+          "ownerType": "SHOP",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/205032456481",
+          "namespace": "mm_google_shopping_extension",
+          "key": "merchant_id",
+          "name": "Google: Merchant ID",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "SHOP",
+          "pinnedPosition": null,
+          "validations": []
+        }
+      ]
+    },
+    "product": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MetafieldDefinition/5209030945",
+          "namespace": "shopify--discovery--product_search_boost",
+          "key": "queries",
+          "name": "Search product boosts",
+          "type": {
+            "name": "list.single_line_text_field"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": null,
+          "validations": [
+            {
+              "name": "max",
+              "value": "100"
+            },
+            {
+              "name": "list.max",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/5209063713",
+          "namespace": "shopify--discovery--product_recommendation",
+          "key": "related_products",
+          "name": "Related products",
+          "type": {
+            "name": "list.product_reference"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": null,
+          "validations": [
+            {
+              "name": "list.max",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/5209096481",
+          "namespace": "shopify--discovery--product_recommendation",
+          "key": "related_products_display",
+          "name": "Related products settings",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": null,
+          "validations": [
+            {
+              "name": "choices",
+              "value": "[\"ahead\",\"only manual\"]"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/5209129249",
+          "namespace": "shopify--discovery--product_recommendation",
+          "key": "complementary_products",
+          "name": "Complementary products",
+          "type": {
+            "name": "list.product_reference"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": null,
+          "validations": [
+            {
+              "name": "list.max",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/205032030497",
+          "namespace": "mm-google-shopping",
+          "key": "custom_product",
+          "name": "Google: Custom Product",
+          "type": {
+            "name": "boolean"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221820027169",
+          "namespace": "custom",
+          "key": "pack_size",
+          "name": "Pack Size",
+          "type": {
+            "name": "number_integer"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 1,
+          "validations": [
+            {
+              "name": "min",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221822255393",
+          "namespace": "custom",
+          "key": "unit_of_measure",
+          "name": "Unit of Measure",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 2,
+          "validations": [
+            {
+              "name": "choices",
+              "value": "[\"Case\",\"Each\"]"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221822615841",
+          "namespace": "custom",
+          "key": "inner_pack",
+          "name": "Inner Pack",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 3,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221823205665",
+          "namespace": "custom",
+          "key": "capacity_size",
+          "name": "Capacity / Size",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 4,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221823238433",
+          "namespace": "custom",
+          "key": "compartments",
+          "name": "Compartments",
+          "type": {
+            "name": "number_integer"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 5,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221823828257",
+          "namespace": "custom",
+          "key": "colour",
+          "name": "Colour",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 6,
+          "validations": [
+            {
+              "name": "choices",
+              "value": "[\"White\",\"Black\",\"Kraft\",\"Natural\"]"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221823861025",
+          "namespace": "custom",
+          "key": "material",
+          "name": "Material",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 7,
+          "validations": [
+            {
+              "name": "choices",
+              "value": "[\"Paper\",\"Bagasse\"]"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221824418081",
+          "namespace": "custom",
+          "key": "material_composition",
+          "name": "Material Composition",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 8,
+          "validations": [
+            {
+              "name": "choices",
+              "value": "[\"Polypropylene (PP)\"]"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221824450849",
+          "namespace": "custom",
+          "key": "lining",
+          "name": "Lining",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 9,
+          "validations": [
+            {
+              "name": "choices",
+              "value": "[\"PE\"]"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221824581921",
+          "namespace": "custom",
+          "key": "sustainability",
+          "name": "Sustainability",
+          "type": {
+            "name": "list.single_line_text_field"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 10,
+          "validations": [
+            {
+              "name": "choices",
+              "value": "[\"Compostable\",\"Home compostable\",\"Recyclable\",\"Made from recycled material\"]"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221824614689",
+          "namespace": "custom",
+          "key": "certifications",
+          "name": "Certifications",
+          "type": {
+            "name": "list.single_line_text_field"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 11,
+          "validations": [
+            {
+              "name": "choices",
+              "value": "[\"BPI\"]"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221824778529",
+          "namespace": "custom",
+          "key": "country_of_origin",
+          "name": "Country of Origin",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 12,
+          "validations": [
+            {
+              "name": "choices",
+              "value": "[\"Canada\",\"United States of America\",\"China\",\"Taiwan\"]"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221824876833",
+          "namespace": "custom",
+          "key": "application",
+          "name": "Application",
+          "type": {
+            "name": "list.single_line_text_field"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 13,
+          "validations": [
+            {
+              "name": "choices",
+              "value": "[\"Cold food\",\"Hot food\",\"Cold beverage\",\"Hot beverage\"]"
+            }
+          ]
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221826318625",
+          "namespace": "custom",
+          "key": "product_length",
+          "name": "Product Length",
+          "type": {
+            "name": "dimension"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 14,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221826351393",
+          "namespace": "custom",
+          "key": "product_width",
+          "name": "Product Width",
+          "type": {
+            "name": "dimension"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 15,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221826384161",
+          "namespace": "custom",
+          "key": "product_height",
+          "name": "Product Height",
+          "type": {
+            "name": "dimension"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 17,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221826416929",
+          "namespace": "custom",
+          "key": "product_diameter",
+          "name": "Product Diameter",
+          "type": {
+            "name": "dimension"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 16,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221827694881",
+          "namespace": "custom",
+          "key": "product_weight",
+          "name": "Product Weight",
+          "type": {
+            "name": "weight"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 18,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221828940065",
+          "namespace": "custom",
+          "key": "case_length",
+          "name": "Case Length",
+          "type": {
+            "name": "dimension"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 19,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221828972833",
+          "namespace": "custom",
+          "key": "case_width",
+          "name": "Case Width",
+          "type": {
+            "name": "dimension"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": 20,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221829005601",
+          "namespace": "custom",
+          "key": "case_height",
+          "name": "Case Height",
+          "type": {
+            "name": "dimension"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221829038369",
+          "namespace": "custom",
+          "key": "case_weight",
+          "name": "Case Weight",
+          "type": {
+            "name": "weight"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221829366049",
+          "namespace": "custom",
+          "key": "ti",
+          "name": "Ti",
+          "type": {
+            "name": "number_integer"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221829398817",
+          "namespace": "custom",
+          "key": "hi",
+          "name": "Hi",
+          "type": {
+            "name": "number_integer"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221829431585",
+          "namespace": "custom",
+          "key": "pallet",
+          "name": "Pallet",
+          "type": {
+            "name": "number_integer"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221830021409",
+          "namespace": "custom",
+          "key": "pallet_length",
+          "name": "Pallet Length",
+          "type": {
+            "name": "dimension"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221830054177",
+          "namespace": "custom",
+          "key": "pallet_width",
+          "name": "Pallet Width",
+          "type": {
+            "name": "dimension"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221830086945",
+          "namespace": "custom",
+          "key": "pallet_height",
+          "name": "Pallet Height",
+          "type": {
+            "name": "dimension"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/221830119713",
+          "namespace": "custom",
+          "key": "pallet_weight",
+          "name": "Pallet Weight",
+          "type": {
+            "name": "weight"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/224239190305",
+          "namespace": "custom",
+          "key": "case_cube",
+          "name": "Case Cube",
+          "type": {
+            "name": "number_decimal"
+          },
+          "ownerType": "PRODUCT",
+          "pinnedPosition": null,
+          "validations": []
+        }
+      ]
+    },
+    "productvariant": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MetafieldDefinition/205032063265",
+          "namespace": "mm-google-shopping",
+          "key": "custom_label_4",
+          "name": "Google: Custom Label 4",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCTVARIANT",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/205032096033",
+          "namespace": "mm-google-shopping",
+          "key": "custom_label_3",
+          "name": "Google: Custom Label 3",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCTVARIANT",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/205032128801",
+          "namespace": "mm-google-shopping",
+          "key": "custom_label_2",
+          "name": "Google: Custom Label 2",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCTVARIANT",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/205032161569",
+          "namespace": "mm-google-shopping",
+          "key": "custom_label_1",
+          "name": "Google: Custom Label 1",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCTVARIANT",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/205032194337",
+          "namespace": "mm-google-shopping",
+          "key": "custom_label_0",
+          "name": "Google: Custom Label 0",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCTVARIANT",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/205032227105",
+          "namespace": "mm-google-shopping",
+          "key": "size_system",
+          "name": "Google: Size System",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCTVARIANT",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/205032259873",
+          "namespace": "mm-google-shopping",
+          "key": "size_type",
+          "name": "Google: Size Type",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCTVARIANT",
+          "pinnedPosition": null,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/205032292641",
+          "namespace": "mm-google-shopping",
+          "key": "mpn",
+          "name": "Google: MPN",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCTVARIANT",
+          "pinnedPosition": 1,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/205032325409",
+          "namespace": "mm-google-shopping",
+          "key": "gender",
+          "name": "Google: Gender",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCTVARIANT",
+          "pinnedPosition": 2,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/205032358177",
+          "namespace": "mm-google-shopping",
+          "key": "condition",
+          "name": "Google: Condition",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCTVARIANT",
+          "pinnedPosition": 3,
+          "validations": []
+        },
+        {
+          "id": "gid://shopify/MetafieldDefinition/205032390945",
+          "namespace": "mm-google-shopping",
+          "key": "age_group",
+          "name": "Google: Age Group",
+          "type": {
+            "name": "single_line_text_field"
+          },
+          "ownerType": "PRODUCTVARIANT",
+          "pinnedPosition": 4,
+          "validations": []
+        }
+      ]
+    },
+    "collection": {
+      "nodes": []
+    },
+    "page": {
+      "nodes": []
+    },
+    "blog": {
+      "nodes": []
+    },
+    "article": {
+      "nodes": []
+    },
+    "market": {
+      "nodes": []
+    },
+    "location": {
+      "nodes": []
+    },
+    "customer": {
+      "nodes": []
+    },
+    "order": {
+      "nodes": []
+    },
+    "company": {
+      "nodes": []
+    },
+    "company_location": {
+      "nodes": []
+    }
+  }
+}

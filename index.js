@@ -1,10 +1,12 @@
-const Shopify = require('shopify-api-node');
+/* eslint-env node */
+/* global require, process, console */
 require('dotenv').config()
 const { program } = require('commander');
 const Migrator = require('./src/migrator.js')
 
 program.version('1.0.0');
 program
+  .option('--audit', 'Read-only source store audit. No destination writes.')
   .option('--all', 'Migrate everything')
   .option('--metafields', 'Run the migration for shop\'s metafields')
   .option('--delete-metafields', 'Delete(replace) shop metafields with the same namespace and key')
@@ -25,27 +27,38 @@ program
 program.parse(process.argv);
 
 const start = async () => {
+  const auditOnly = !!program.audit
   const sourceStore = {
     shopName: process.env.SOURCE_SHOPIFY_STORE,
     autoLimit: true,
-    accessToken: process.env.SOURCE_SHOPIFY_API_PASSWORD,
-    apiVersion: '2023-10'
+    accessToken: process.env.SOURCE_SHOPIFY_ACCESS_TOKEN || process.env.SOURCE_SHOPIFY_API_PASSWORD,
+    apiVersion: process.env.SHOPIFY_API_VERSION || '2025-10'
   }
-  const destinationStore = {
+  const destinationStore = auditOnly ? null : {
     shopName: process.env.DESTINATION_SHOPIFY_STORE,
     autoLimit: true,
-    accessToken: process.env.DESTINATION_SHOPIFY_API_PASSWORD,
-    apiVersion: '2023-10'
+    accessToken: process.env.DESTINATION_SHOPIFY_ACCESS_TOKEN || process.env.DESTINATION_SHOPIFY_API_PASSWORD,
+    apiVersion: process.env.SHOPIFY_API_VERSION || '2025-10'
   }
-  const migration = new Migrator(sourceStore, destinationStore, (program.verbosity && program.verbosity * 1)|| 4, program.saveData)
+  const migration = new Migrator(
+    sourceStore,
+    destinationStore,
+    (program.verbosity && program.verbosity * 1)|| 4,
+    program.saveData,
+    { readOnly: auditOnly }
+  )
   try {
     await migration.testConnection()
-    migration.log('Store configuration looks correct.')
+    migration.log(auditOnly ? 'Source store configuration looks correct.' : 'Store configuration looks correct.')
   } catch (e) {
     migration.error('Could not validate proper store setup', e.message)
     process.exit()
   }
   try {
+    if (auditOnly) {
+      await migration.auditSource()
+      return
+    }
     if (program.all || program.pages) {
       await migration.migratePages(program.deletePages)
     }

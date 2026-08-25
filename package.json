@@ -4,8 +4,22 @@
   "description": "Shopify Store Duplicator. Duplicates Products, pages, blogs & articles",
   "main": "index.js",
   "scripts": {
+    "audit:cli": "node scripts/cli-audit.js",
+    "audit:inventory": "node scripts/cli-inventory.js",
+    "plan:cli": "node scripts/cli-plan-sync.js",
+    "sync:all": "node scripts/cli-sync-all.js",
+    "sync:articles": "node scripts/cli-sync-articles.js",
+    "sync:blogs": "node scripts/cli-sync-blogs.js",
+    "sync:collections": "node scripts/cli-sync-collections.js",
+    "sync:inventory": "node scripts/cli-sync-inventory.js",
+    "sync:menus": "node scripts/cli-sync-menus.js",
+    "sync:metafields": "node scripts/cli-sync-metafields.js",
+    "sync:products": "node scripts/cli-sync-products.js",
+    "sync:pages": "node scripts/cli-sync-pages.js",
+    "sync:redirects": "node scripts/cli-sync-redirects.js",
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test test/*.test.js",
+    "verify": "node scripts/cli-verify.js"
   },
   "author": "213a Creative Studio <hello@213a.ca>",
   "license": "MIT",

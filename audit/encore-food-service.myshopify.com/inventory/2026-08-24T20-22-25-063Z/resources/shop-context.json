@@ -1,0 +1,24 @@
+{
+  "name": "shop-context",
+  "ok": true,
+  "data": {
+    "shop": {
+      "id": "gid://shopify/Shop/78278492449",
+      "name": "Encore Canada",
+      "myshopifyDomain": "encore-food-service.myshopify.com",
+      "primaryDomain": {
+        "url": "https://encorecanada.com",
+        "host": "encorecanada.com"
+      },
+      "currencyCode": "CAD",
+      "ianaTimezone": "America/New_York",
+      "timezoneAbbreviation": "EDT",
+      "weightUnit": "KILOGRAMS",
+      "taxesIncluded": false,
+      "plan": {
+        "displayName": "Basic",
+        "partnerDevelopment": false
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "id": "gid://shopify/Blog/100850663713",
+    "title": "News",
+    "handle": "news",
+    "commentPolicy": "CLOSED",
+    "templateSuffix": null
+  }
+]

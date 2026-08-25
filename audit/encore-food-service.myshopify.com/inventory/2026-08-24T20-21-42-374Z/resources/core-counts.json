@@ -1,0 +1,37 @@
+{
+  "name": "core-counts",
+  "ok": true,
+  "data": {
+    "productsCount": {
+      "count": 410,
+      "precision": "EXACT"
+    },
+    "productVariantsCount": {
+      "count": 414,
+      "precision": "EXACT"
+    },
+    "collectionsCount": {
+      "count": 17,
+      "precision": "EXACT"
+    },
+    "pagesCount": {
+      "count": 8,
+      "precision": "EXACT"
+    },
+    "blogsCount": {
+      "count": 1,
+      "precision": "EXACT"
+    },
+    "urlRedirectsCount": {
+      "count": 1,
+      "precision": "EXACT"
+    },
+    "files": {
+      "nodes": [
+        {
+          "id": "gid://shopify/MediaImage/34321338138913"
+        }
+      ]
+    }
+  }
+}
